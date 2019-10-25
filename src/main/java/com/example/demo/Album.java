@@ -15,7 +15,7 @@ public class Album {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private long albumId;
 
     @NotEmpty
     @Size(min=1)
