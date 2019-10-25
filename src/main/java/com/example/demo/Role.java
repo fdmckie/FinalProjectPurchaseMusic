@@ -26,11 +26,11 @@ public class Role {
 
 
     public long getId() {
-        return id;
+        return roleId;
     }
 
     public void setId(long id) {
-        this.id = id;
+        this.roleId = id;
     }
 
     public String getRole() {

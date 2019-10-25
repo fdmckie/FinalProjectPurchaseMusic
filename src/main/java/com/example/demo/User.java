@@ -58,11 +58,11 @@ public class User {
     }
 
     public long getId() {
-        return id;
+        return userId;
     }
 
     public void setId(long id) {
-        this.id = id;
+        this.userId = id;
     }
 
     public String getEmail() {
